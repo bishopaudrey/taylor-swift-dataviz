@@ -1,0 +1,10 @@
+name: ts-environment
+channels:
+  - conda-forge
+dependencies:
+  - bokeh
+  - holoviews
+  - hvplot
+  - numpy
+  - pandas
+  - panel
