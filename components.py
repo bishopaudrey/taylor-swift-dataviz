@@ -7,8 +7,8 @@ import panel as pn
 pn.extension()
 
 
-ts_df = pd.read_csv('ts.csv', parse_dates=['timestamp'])
-ts2_df = pd.read_csv('4weeks.csv', parse_dates=['timestamp'])
+ts_df = pd.read_csv('data/ts.csv', parse_dates=['timestamp'])
+ts2_df = pd.read_csv('data/ts.csv', parse_dates=['timestamp'])
 
 
 def spotify_player():
